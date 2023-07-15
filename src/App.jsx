@@ -1,11 +1,11 @@
-import './App.css';
-import ThreeScene from './components/ThreeScene';
+import './App.css'
 
 function App() {
 
   return (
+
     <div>
-      <ThreeScene />
+      This is App div
     </div>
   )
 }
