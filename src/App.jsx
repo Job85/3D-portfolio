@@ -4,7 +4,7 @@ function App() {
 
   return (
 
-    <div>
+    <div id='App'>
       This is App div
     </div>
   )
