@@ -1,5 +1,6 @@
-import { OrbitControls } from "@react-three/drei"
-import Plane from "./Plane"
+import { OrbitControls } from "@react-three/drei";
+import Plane from "./Plane";
+import Background from "./Background";
 
 const MyScene = () => {
 
@@ -7,7 +8,8 @@ const MyScene = () => {
         <>
             <OrbitControls />
             <ambientLight />
-            <Plane position={[0, 4, 0]} />
+            <Background />
+            <Plane position={[0, 1, 0]} />
         </>
     )
 }
